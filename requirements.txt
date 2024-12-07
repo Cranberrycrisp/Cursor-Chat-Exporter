@@ -1,0 +1,10 @@
+PyQt6==6.7.1
+PyQt6-Qt6==6.7.3
+PyQt6_sip==13.9.0
+pyinstaller==6.11.1
+pyinstaller-hooks-contrib==2024.10
+altgraph==0.17.4
+packaging==24.2
+pefile==2023.2.7
+pywin32-ctypes==0.2.3
+colorama==0.4.6
