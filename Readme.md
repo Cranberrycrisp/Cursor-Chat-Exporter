@@ -3,9 +3,12 @@
 一个简单的工具，用于导出 Cursor AI 的聊天记录到 Markdown 和 JSON 文件。(
 可用于0.43以前的版本，旧版本覆盖安装不会删除聊天数据)
 
-0.42.5版本：[0.42.5 Build Links - Cursor - Community Forum](https://forum.cursor.com/t/0-42-5-build-links/30521)
+`Cursor 0.42.5` 版本，来源：[0.42.5 Build Links - Cursor - Community Forum](https://forum.cursor.com/t/0-42-5-build-links/30521)
+Mac - https://downloader.cursor.sh/builds/24111460bf2loz1/mac/installer/universal
+Windows x64 - https://downloader.cursor.sh/builds/24111460bf2loz1/windows/nsis/x64
+Linux x64 - https://downloader.cursor.sh/builds/24111460bf2loz1/linux/appImage/x64
 
-版本查看：`Help > About Cursor`
+版本查看：`Help > About`
 
 关闭自动更新：`文件 > 首选项 > 设置` 搜索框输入 update，`应用程序 > 更新` 关闭自动更新相关设置
 
@@ -22,12 +25,11 @@
 
 ## 功能特点
 
-- 导出所有 Cursor AI 聊天记录到 Markdown 文件
-- 可选择同时导出 JSON 格式
-- 文件名添加创建时间前缀（默认）。考虑到文件名重复会被覆盖，且聊天记录过多时可以根据文件名排序，可手动取消。
+- 快速导出所有 Cursor AI 聊天记录到 Markdown 文件，可选择同时导出 JSON 格式
+- 文件名添加创建时间前缀（默认）。考虑到文件名重复会被覆盖，且聊天记录过多时可以根据文件名排序，可手动取消勾选。
 - 保留代码块和格式
 - 简洁的图形界面
-- 实时导出进度显示
+- 导出进度显示
 
 ## 下载使用
 
