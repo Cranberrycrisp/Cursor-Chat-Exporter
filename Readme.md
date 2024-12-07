@@ -106,7 +106,7 @@ pyinstaller cursor-chat-exporter-gui.spec
 
 ## 其他
 
-- `state.vscdb`文件可以 pip 安装 datasette，运行`datasette state.vscdb`，在浏览器 `http://localhost:8001/state？` 查看
+- `state.vscdb`文件可以 pip 安装 datasette，`pip install datasette` 运行 `datasette state.vscdb`，在浏览器 `http://localhost:8001/state?` 查看
 
 ## 开发环境
 
