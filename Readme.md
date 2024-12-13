@@ -1,7 +1,8 @@
 # Cursor Chat Exporter
 
-一个简单的工具，用于导出 Cursor AI 的聊天记录到 Markdown 和 JSON 文件。(
-可用于0.43以前的版本，旧版本覆盖安装不会删除聊天数据)
+一个简单的工具，用于导出 Cursor AI 的聊天记录到 Markdown 和 JSON 文件。(适用于0.43以前的版本)
+
+旧版本自动更新，可以覆盖安装后使用。安装时就是新版本的谨慎降级，新版本中创建的聊天记录无法导出。
 
 `Cursor 0.42.5` 版本，来源：[0.42.5 Build Links - Cursor - Community Forum](https://forum.cursor.com/t/0-42-5-build-links/30521)
 
