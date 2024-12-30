@@ -397,7 +397,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(separator)
 
         # 添加版本信息
-        version_label = QLabel('v1.0.0')
+        version_label = QLabel('v1.0.1')
         version_label.setAlignment(Qt.AlignmentFlag.AlignRight)
         version_label.setStyleSheet("color: #666; padding: 5px;")
         layout.addWidget(version_label)
