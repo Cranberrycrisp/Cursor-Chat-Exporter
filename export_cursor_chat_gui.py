@@ -21,8 +21,17 @@ import platform
 
 
 def sanitize_filename(filename):
-    """清理文件名，移除非法字符，只保留字母、数字、中文和基本标点"""
-    filename = re.sub(r'[<>:"/\\|?*]', '', filename)
+    """清理文件名，移除非法字符，限制长度"""
+    # 移除换行符和多余空格
+    filename = ' '.join(filename.split())
+    
+    # 移除非法字符
+    filename = re.sub(r'[<>:"/\\|?*\n\r]', '', filename)
+    
+    # 限制文件名长度(不包括扩展名)为50个字符
+    filename = filename[:50]
+    
+    # 确保文件名不为空
     return filename.strip() or 'untitled'
 
 
